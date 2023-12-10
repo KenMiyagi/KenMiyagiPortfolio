@@ -10,8 +10,8 @@ const NavBar = () => {
     console.log(location);
     console.log(location === "/");
   return (
-<nav class="bg-success text-dark bg-opacity-75 sticky-top navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid bg-black.bg-gradien">
+<nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div className="container-fluid">
         <button
           className="navbar-toggler"
           type="button"

@@ -9,7 +9,7 @@ import Navbar from "./Components/NavBar/NavBar"
 function App() {
 
   return (
-      <div>
+      <div data-bs-theme="dark">
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
